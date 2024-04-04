@@ -32,6 +32,7 @@ public class ApartmentRater {
 		for (Apartment apartment : apartments) {
 			sumRatings += rateApartment(apartment);
 		}
+
 		return sumRatings * 1.0 / apartments.size();	
 	}
 }
